@@ -1,0 +1,35 @@
+/* Calculator.css */
+
+.main {
+    height: 100vh;
+    padding: 100px;
+}
+
+div .line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    width: 200px; /* Ajuste conforme necessário */
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+
+  
+  button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
